@@ -9,25 +9,32 @@ const port = 4000;
 let posts = [
   {
     id: 1,
-    title: "The Rise of Decentralized Finance",
-    content: "Decentralized Finance (DeFi) is an emerging and rapidly evolving field in the blockchain industry. It refers to the shift from traditional, centralized financial systems to peer-to-peer finance enabled by decentralized technologies built on Ethereum and other blockchains. With the promise of reduced dependency on the traditional banking sector, DeFi platforms offer a wide range of services, from lending and borrowing to insurance and trading.",
-    author: "Alex Thompson",
-    date: "2023-08-01T10:00:00Z",
+    title: "Discovering Coding Through Robotics",
+    content: "In the world of robotics, we know that designing hardware and components is just one part of the equation. Equally important is the skill of developing algorithms that enable robots to perform desired tasks. My interest in coding was piqued and deepened when I started working as a robotics teacher at a private company. This experience exposed me to the fascinating intersection of hardware and software, where I learned how to create algorithms that bring robots to life, performing complex tasks with precision.",
+    author: "Yoga Adi S",
+    date: "2022-10-21T10:00:00Z",
   },
   {
     id: 2,
-    title: "The Impact of Artificial Intelligence on Modern Businesses",
-    content: "Artificial Intelligence (AI) is no longer a concept of the future. It's very much a part of our present, reshaping industries and enhancing the capabilities of existing systems. From automating routine tasks to offering intelligent insights, AI is proving to be a boon for businesses. With advancements in machine learning and deep learning, businesses can now address previously insurmountable problems and tap into new opportunities.",
-    author: "Mia Williams",
-    date: "2023-08-05T14:30:00Z",
+    title: "Learning Coding Fundamentals Through Game Development",
+    content: "Besides robotics, another enjoyable medium for exploring and understanding programming fundamentals such as loops, functions, variables, callbacks, classes, and objects is game development. Through game development, these concepts become less abstract and can be seen, used, and experienced directly. Developing games provides an interactive and engaging way to solidify core programming skills, making the learning process both fun and effective.",
+    author: "Yoga Adi S",
+    date: "2023-04-21T11:00:00Z",
   },
   {
     id: 3,
-    title: "Sustainable Living: Tips for an Eco-Friendly Lifestyle",
-    content: "Sustainability is more than just a buzzword; it's a way of life. As the effects of climate change become more pronounced, there's a growing realization about the need to live sustainably. From reducing waste and conserving energy to supporting eco-friendly products, there are numerous ways we can make our daily lives more environmentally friendly. This post will explore practical tips and habits that can make a significant difference.",
-    author: "Samuel Green",
-    date: "2023-08-10T09:15:00Z",
+    title: "Delving into JavaScript",
+    content: "I have studied and switched between various programming languages multiple times, but I realized this approach wasn't very effective. It reminds me of the saying that it's better to practice one skill 1,000 times than to practice 1,000 skills once. Therefore, I decided to focus deeply on JavaScript, mastering its intricacies and becoming proficient in one language. This focused approach has allowed me to gain a deeper understanding and expertise, making me more confident and competent as a developer.",
+    author: "Your Name",
+    date: "2024-01-21T12:00:00Z",
   },
+  {
+    id: 4,
+    title: "Exploring 3D Websites with Three.js",
+    content: "Recently, I have been diving into Three.js, a powerful JavaScript library that makes creating 3D graphics on the web both accessible and efficient. Three.js simplifies the process of developing 3D content, allowing developers to create visually stunning, interactive web experiences. By leveraging WebGL, Three.js abstracts the complexities of 3D rendering and provides an easy-to-use interface for building sophisticated 3D scenes, animations, and more. This has opened up new possibilities for enhancing the user experience on websites, making them more engaging and immersive.",
+    author: "Yoga Adi S",
+    date: "2024-07-21T13:00:00Z",
+  }
 ];
 
 let lastId = 3;
